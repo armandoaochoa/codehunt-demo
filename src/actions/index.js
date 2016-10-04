@@ -7,13 +7,6 @@ class Actions {
 	initSession() {
 		return (dispatch) => {
 			var firebase = require("firebase");
-		    var config = {
-  				apiKey: "AIzaSyDLNouRXsPnQJJDw7EUDOWf6GYug15QlVw",
-  				authDomain: "codehunt-demo-698b7.firebaseapp.com",
-		    	databaseURL: "https://codehunt-demo-698b7.firebaseio.com/",
-		    	storageBucket: "481512294216"
-		    }
-			firebase.initializeApp(config);
 
 			var user;
 
